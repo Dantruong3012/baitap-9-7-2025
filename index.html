@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency changing</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <form>
+      <label for="amount">amount</label>
+      <input id="k" type="number" min="0" />
+
+      <label for="from">From</label>
+
+      <select name="current money" id="b">
+        <option value="#">--please select--</option>
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+      </select>
+
+      <label for="to">To</label>
+
+      <select name="value" id="c">
+        <option value="#">--please select--</option>
+        <option value="USD">USD</option>
+        <option value="VND">VND</option>
+      </select>
+
+      <p id="d">Result:</p>
+
+      <button onclick="e()" type="button">Conver</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
